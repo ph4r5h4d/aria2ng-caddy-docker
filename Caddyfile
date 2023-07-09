@@ -1,0 +1,14 @@
+{
+  admin off
+  auto_https off
+}
+
+:8080 
+
+root * /var/www/aria2ng
+file_server
+encode gzip
+
+log {
+  level warn
+}
